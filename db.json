@@ -3,9 +3,9 @@
     {
       "id": 1,
       "sender_id": 1,
-      "subject": "Test",
+      "subject": "Lorem ipsum dolor sit amet",
       "is_draft": false,
-      "text": "test",
+      "text": "Default text for message",
       "created_at": "2017-11-14 17:00:04",
       "updated_at": "2017-11-14 17:00:04",
       "sender": {
@@ -21,7 +21,7 @@
     {
       "id": 2,
       "sender_id": 1,
-      "subject": "Subject",
+      "subject": "Lorem ipsum dolor sit amet",
       "is_draft": false,
       "text": "Text",
       "created_at": "2017-11-14 17:03:32",
@@ -39,9 +39,9 @@
     {
       "id": 3,
       "sender_id": 1,
-      "subject": "Subject",
+      "subject": "Lorem ipsum dolor sit amet",
       "is_draft": false,
-      "text": "Text",
+      "text": "Default text for message",
       "created_at": "2017-11-14 17:03:58",
       "updated_at": "2017-11-14 17:03:58",
       "sender": {
@@ -57,9 +57,9 @@
     {
       "id": 4,
       "sender_id": 1,
-      "subject": "Subject",
+      "subject": "Lorem ipsum dolor sit amet",
       "is_draft": false,
-      "text": "Text",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ante ante, ultrices a magna at, pellentesque posuere est. Morbi urna ipsum, lobortis a enim ut, euismod vulputate erat. Fusce at mauris nec neque eleifend mollis. Ut ultrices gravida urna in tristique. Nunc malesuada, quam auctor posuere scelerisque, sem urna porttitor lorem, a cursus dui orci vel est. Maecenas volutpat efficitur nisi vel elementum. Nunc mauris ante, tempus et leo et, scelerisque iaculis tellus. Ut cursus aliquet dolor nec sagittis. Phasellus ultricies fermentum sem, eu mollis risus.",
       "created_at": "2017-11-14 17:04:59",
       "updated_at": "2017-11-14 17:04:59",
       "sender": {
@@ -75,8 +75,8 @@
           "id": 2,
           "name": "Test",
           "email": "test@test.com",
-          "created_at": null,
-          "updated_at": null,
+          "created_at": "2017-11-15 11:48:34",
+          "updated_at": "2017-11-15 11:48:34",
           "pivot": {
             "message_id": 4,
             "user_id": 2
@@ -86,8 +86,8 @@
           "id": 4,
           "name": "Test2",
           "email": "test2@test.com",
-          "created_at": null,
-          "updated_at": null,
+          "created_at": "2017-11-14 10:48:34",
+          "updated_at": "2017-11-14 11:48:34",
           "pivot": {
             "message_id": 4,
             "user_id": 4
@@ -97,8 +97,8 @@
           "id": 5,
           "name": "Test3",
           "email": "test3@test.com",
-          "created_at": null,
-          "updated_at": null,
+          "created_at": "2017-11-13 11:48:34",
+          "updated_at": "2017-11-13 11:48:34",
           "pivot": {
             "message_id": 4,
             "user_id": 5
@@ -109,9 +109,9 @@
     {
       "id": 5,
       "sender_id": 1,
-      "subject": "asf",
+      "subject": "Lorem ipsum dolor sit amet",
       "is_draft": false,
-      "text": "asfsaf",
+      "text": "Etiam bibendum sagittis erat. Vestibulum malesuada massa nec elementum eleifend. Donec ligula lacus, auctor id justo dignissim, lacinia viverra odio. Curabitur sit amet eros eget libero dignissim dignissim vel sed metus. Nunc mattis a neque ac facilisis. Morbi eleifend nisl nunc, vitae maximus nunc finibus gravida. Curabitur rutrum pellentesque ipsum, volutpat tempor orci hendrerit sed. Aliquam augue libero, mattis eget tortor at, accumsan sollicitudin est. Aenean non rutrum leo. Nam scelerisque ipsum justo, non lobortis purus venenatis nec. Cras vel rutrum justo. Vivamus sodales, ligula ut efficitur facilisis, mauris leo dictum erat, ut porttitor velit purus eu quam. Proin ac lacus eget lorem efficitur accumsan ut non enim.",
       "created_at": "2017-11-14 17:05:49",
       "updated_at": "2017-11-14 17:05:49",
       "sender": {
@@ -152,7 +152,7 @@
       "sender_id": 1,
       "subject": "Test 2",
       "is_draft": false,
-      "text": "Test 2",
+      "text": "Nam vitae ante lacus. Donec luctus facilisis nibh et ornare. Nam quis fringilla libero, at tempus turpis. Vestibulum et quam non enim posuere faucibus sed ac urna. Pellentesque at dui et dui porta ornare. Duis rhoncus est pulvinar metus pellentesque iaculis. Donec ligula quam, congue a arcu in, tristique congue metus. Vivamus vulputate pulvinar viverra. Fusce placerat nisi ac magna sagittis ultricies. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin vulputate felis ac lorem posuere ullamcorper. Cras et rhoncus nisi. Etiam pulvinar ipsum et auctor condimentum. Donec vitae enim interdum, semper urna non, euismod metus.",
       "created_at": "2017-11-14 17:10:17",
       "updated_at": "2017-11-14 17:10:17",
       "sender": {
@@ -193,7 +193,7 @@
       "sender_id": 1,
       "subject": "Subject",
       "is_draft": false,
-      "text": "ар",
+      "text": "Nam vitae ante lacus. Donec luctus facilisis nibh et ornare. Nam quis fringilla libero, at tempus turpis. Vestibulum et quam non enim posuere faucibus sed ac urna. Pellentesque at dui et dui porta ornare. Duis rhoncus est pulvinar metus pellentesque iaculis. Donec ligula quam, congue a arcu in, tristique congue metus. Vivamus vulputate pulvinar viverra. Fusce placerat nisi ac magna sagittis ultricies. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin vulputate felis ac lorem posuere ullamcorper. Cras et rhoncus nisi. Etiam pulvinar ipsum et auctor condimentum. Donec vitae enim interdum, semper urna non, euismod metus.",
       "created_at": "2017-11-14 22:51:43",
       "updated_at": "2017-11-14 22:51:43",
       "sender": {
@@ -209,7 +209,7 @@
     {
       "id": 9,
       "sender_id": 1,
-      "subject": "Subject",
+      "subject": "Lorem ipsum dolor sit amet",
       "is_draft": false,
       "text": "івиваи",
       "created_at": "2017-11-14 22:53:27",
@@ -227,9 +227,9 @@
     {
       "id": 11,
       "sender_id": 1,
-      "subject": "Subject",
+      "subject": "Lorem ipsum dolor sit amet",
       "is_draft": false,
-      "text": "sgsg",
+      "text": "Suspendisse id augue arcu. Nullam vitae scelerisque justo. Maecenas cursus, sem vitae lacinia aliquet, tellus metus porta velit, at feugiat sapien turpis nec augue. Praesent enim quam, faucibus id viverra quis, tristique a sapien. Pellentesque venenatis posuere ipsum, eu consectetur lectus placerat at. Maecenas vel vehicula est. Nam sodales nisi sit amet eros feugiat varius. Pellentesque fringilla metus eget arcu consequat molestie.",
       "created_at": "2017-11-15 00:17:25",
       "updated_at": "2017-11-15 00:17:25",
       "sender": {
@@ -257,9 +257,9 @@
     {
       "id": 12,
       "sender_id": 1,
-      "subject": "Subject",
+      "subject": "Lorem ipsum dolor sit amet",
       "is_draft": false,
-      "text": "sdgsg",
+      "text": "Suspendisse id augue arcu. Nullam vitae scelerisque justo. Maecenas cursus, sem vitae lacinia aliquet, tellus metus porta velit, at feugiat sapien turpis nec augue. Praesent enim quam, faucibus id viverra quis, tristique a sapien. Pellentesque venenatis posuere ipsum, eu consectetur lectus placerat at. Maecenas vel vehicula est. Nam sodales nisi sit amet eros feugiat varius. Pellentesque fringilla metus eget arcu consequat molestie.",
       "created_at": "2017-11-15 00:18:44",
       "updated_at": "2017-11-15 00:18:44",
       "sender": {
@@ -287,9 +287,9 @@
     {
       "id": 13,
       "sender_id": 1,
-      "subject": "Subject",
+      "subject": "Lorem ipsum dolor sit amet",
       "is_draft": false,
-      "text": "asfasf",
+      "text": "Duis molestie sollicitudin quam, et dictum sem ullamcorper ac. Maecenas commodo vestibulum congue. Nullam non tincidunt metus. In est enim, finibus eget arcu posuere, accumsan lacinia nibh. Morbi sed pharetra libero, vel volutpat mi. In sit amet interdum augue. Proin vestibulum arcu vitae ultrices varius. Maecenas velit est, vestibulum in feugiat a, tincidunt vel mi. Quisque semper faucibus nunc id blandit. In interdum quis mauris et placerat.",
       "created_at": "2017-11-15 00:20:00",
       "updated_at": "2017-11-15 00:20:00",
       "sender": {
@@ -317,7 +317,7 @@
     {
       "id": 14,
       "sender_id": 1,
-      "subject": "sdgsdg",
+      "subject": "Lorem ipsum dolor sit amet",
       "is_draft": false,
       "text": "asgdsg",
       "created_at": "2017-11-15 00:33:12",
@@ -369,7 +369,7 @@
     {
       "id": 15,
       "sender_id": 1,
-      "subject": "fgmfgmf",
+      "subject": "Lorem ipsum dolor sit amet",
       "is_draft": false,
       "text": "fnfgmgfm",
       "created_at": "2017-11-15 00:34:07",
@@ -410,7 +410,7 @@
     {
       "id": 16,
       "sender_id": 1,
-      "subject": "sdgsdg",
+      "subject": "Lorem ipsum dolor sit amet",
       "is_draft": false,
       "text": "sdhsdh",
       "created_at": "2017-11-15 00:35:35",
@@ -438,7 +438,7 @@
       ]
     },
     {
-      "text": "gsgdhd",
+      "text": "Duis molestie sollicitudin quam, et dictum sem ullamcorper ac. Maecenas commodo vestibulum congue. Nullam non tincidunt metus. In est enim, finibus eget arcu posuere, accumsan lacinia nibh. Morbi sed pharetra libero, vel volutpat mi. In sit amet interdum augue. Proin vestibulum arcu vitae ultrices varius. Maecenas velit est, vestibulum in feugiat a, tincidunt vel mi. Quisque semper faucibus nunc id blandit. In interdum quis mauris et placerat.",
       "subject": "Subject",
       "receiver": {
         "id": 1,
@@ -473,7 +473,7 @@
       "sender_id": 1,
       "subject": "Test 2",
       "is_draft": false,
-      "text": "Test 2",
+      "text": "Duis molestie sollicitudin quam, et dictum sem ullamcorper ac. Maecenas commodo vestibulum congue. Nullam non tincidunt metus. In est enim, finibus eget arcu posuere, accumsan lacinia nibh. Morbi sed pharetra libero, vel volutpat mi. In sit amet interdum augue. Proin vestibulum arcu vitae ultrices varius. Maecenas velit est, vestibulum in feugiat a, tincidunt vel mi. Quisque semper faucibus nunc id blandit. In interdum quis mauris et placerat.",
       "created_at": "2017-11-14 17:10:17",
       "updated_at": "2017-11-14 17:10:17",
       "sender": {
@@ -494,7 +494,7 @@
       "sender_id": 1,
       "subject": "Subject",
       "is_draft": false,
-      "text": "івиваи",
+      "text": "Duis molestie sollicitudin quam, et dictum sem ullamcorper ac. Maecenas commodo vestibulum congue. Nullam non tincidunt metus. In est enim, finibus eget arcu posuere, accumsan lacinia nibh. Morbi sed pharetra libero, vel volutpat mi. In sit amet interdum augue. Proin vestibulum arcu vitae ultrices varius. Maecenas velit est, vestibulum in feugiat a, tincidunt vel mi. Quisque semper faucibus nunc id blandit. In interdum quis mauris et placerat.",
       "created_at": "2017-11-14 22:53:55",
       "updated_at": "2017-11-14 22:53:55",
       "sender": {
@@ -515,7 +515,7 @@
       "sender_id": 1,
       "subject": "Subject",
       "is_draft": false,
-      "text": "sgsg",
+      "text": "Duis molestie sollicitudin quam, et dictum sem ullamcorper ac. Maecenas commodo vestibulum congue. Nullam non tincidunt metus. In est enim, finibus eget arcu posuere, accumsan lacinia nibh. Morbi sed pharetra libero, vel volutpat mi. In sit amet interdum augue. Proin vestibulum arcu vitae ultrices varius. Maecenas velit est, vestibulum in feugiat a, tincidunt vel mi. Quisque semper faucibus nunc id blandit. In interdum quis mauris et placerat.",
       "created_at": "2017-11-15 00:17:25",
       "updated_at": "2017-11-15 00:17:25",
       "sender": {
@@ -536,7 +536,7 @@
       "sender_id": 1,
       "subject": "Subject",
       "is_draft": false,
-      "text": "sdgsg",
+      "text": "Duis molestie sollicitudin quam, et dictum sem ullamcorper ac. Maecenas commodo vestibulum congue. Nullam non tincidunt metus. In est enim, finibus eget arcu posuere, accumsan lacinia nibh. Morbi sed pharetra libero, vel volutpat mi. In sit amet interdum augue. Proin vestibulum arcu vitae ultrices varius. Maecenas velit est, vestibulum in feugiat a, tincidunt vel mi. Quisque semper faucibus nunc id blandit. In interdum quis mauris et placerat.",
       "created_at": "2017-11-15 00:18:44",
       "updated_at": "2017-11-15 00:18:44",
       "sender": {
@@ -557,7 +557,7 @@
       "sender_id": 1,
       "subject": "Subject",
       "is_draft": false,
-      "text": "asfasf",
+      "text": "Duis molestie sollicitudin quam, et dictum sem ullamcorper ac. Maecenas commodo vestibulum congue. Nullam non tincidunt metus. In est enim, finibus eget arcu posuere, accumsan lacinia nibh. Morbi sed pharetra libero, vel volutpat mi. In sit amet interdum augue. Proin vestibulum arcu vitae ultrices varius. Maecenas velit est, vestibulum in feugiat a, tincidunt vel mi. Quisque semper faucibus nunc id blandit. In interdum quis mauris et placerat.",
       "created_at": "2017-11-15 00:20:00",
       "updated_at": "2017-11-15 00:20:00",
       "sender": {
@@ -576,7 +576,7 @@
     {
       "files": [],
       "receivers": [],
-      "text": "asgsag",
+      "text": "Duis molestie sollicitudin quam, et dictum sem ullamcorper ac. Maecenas commodo vestibulum congue. Nullam non tincidunt metus. In est enim, finibus eget arcu posuere, accumsan lacinia nibh. Morbi sed pharetra libero, vel volutpat mi. In sit amet interdum augue. Proin vestibulum arcu vitae ultrices varius. Maecenas velit est, vestibulum in feugiat a, tincidunt vel mi. Quisque semper faucibus nunc id blandit. In interdum quis mauris et placerat.",
       "subject": "sagsag",
       "id": 14
     }
@@ -587,7 +587,7 @@
       "sender_id": 1,
       "subject": "Subject",
       "is_draft": true,
-      "text": "івиваиfhd",
+      "text": "Duis molestie sollicitudin quam, et dictum sem ullamcorper ac. Maecenas commodo vestibulum congue. Nullam non tincidunt metus. In est enim, finibus eget arcu posuere, accumsan lacinia nibh. Morbi sed pharetra libero, vel volutpat mi. In sit amet interdum augue. Proin vestibulum arcu vitae ultrices varius. Maecenas velit est, vestibulum in feugiat a, tincidunt vel mi. Quisque semper faucibus nunc id blandit. In interdum quis mauris et placerat.",
       "created_at": "2017-11-14 22:53:12",
       "updated_at": "2017-11-14 22:53:12",
       "sender": {
@@ -605,7 +605,7 @@
       "sender_id": 1,
       "subject": "Subject",
       "is_draft": true,
-      "text": "івиваиhdf",
+      "text": "Duis molestie sollicitudin quam, et dictum sem ullamcorper ac. Maecenas commodo vestibulum congue. Nullam non tincidunt metus. In est enim, finibus eget arcu posuere, accumsan lacinia nibh. Morbi sed pharetra libero, vel volutpat mi. In sit amet interdum augue. Proin vestibulum arcu vitae ultrices varius. Maecenas velit est, vestibulum in feugiat a, tincidunt vel mi. Quisque semper faucibus nunc id blandit. In interdum quis mauris et placerat.",
       "created_at": "2017-11-14 22:53:55",
       "updated_at": "2017-11-14 22:53:55",
       "sender": {
@@ -619,7 +619,7 @@
       "receivers": []
     },
     {
-      "text": "fdfdjfdmdf",
+      "text": "Duis molestie sollicitudin quam, et dictum sem ullamcorper ac. Maecenas commodo vestibulum congue. Nullam non tincidunt metus. In est enim, finibus eget arcu posuere, accumsan lacinia nibh. Morbi sed pharetra libero, vel volutpat mi. In sit amet interdum augue. Proin vestibulum arcu vitae ultrices varius. Maecenas velit est, vestibulum in feugiat a, tincidunt vel mi. Quisque semper faucibus nunc id blandit. In interdum quis mauris et placerat.",
       "subject": "Subject",
       "receiver": {
         "id": 1,
@@ -632,7 +632,7 @@
       "id": 11
     },
     {
-      "text": "fbnfdnfdm",
+      "text": "Duis molestie sollicitudin quam, et dictum sem ullamcorper ac. Maecenas commodo vestibulum congue. Nullam non tincidunt metus. In est enim, finibus eget arcu posuere, accumsan lacinia nibh. Morbi sed pharetra libero, vel volutpat mi. In sit amet interdum augue. Proin vestibulum arcu vitae ultrices varius. Maecenas velit est, vestibulum in feugiat a, tincidunt vel mi. Quisque semper faucibus nunc id blandit. In interdum quis mauris et placerat.",
       "subject": "Subject",
       "receiver": {
         "id": 1,
@@ -668,7 +668,7 @@
       "id": 13
     },
     {
-      "text": "fnfdn",
+      "text": "Duis molestie sollicitudin quam, et dictum sem ullamcorper ac. Maecenas commodo vestibulum congue. Nullam non tincidunt metus. In est enim, finibus eget arcu posuere, accumsan lacinia nibh. Morbi sed pharetra libero, vel volutpat mi. In sit amet interdum augue. Proin vestibulum arcu vitae ultrices varius. Maecenas velit est, vestibulum in feugiat a, tincidunt vel mi. Quisque semper faucibus nunc id blandit. In interdum quis mauris et placerat.",
       "subject": "Subject",
       "receiver": {
         "id": 1,
@@ -750,7 +750,7 @@
       "sender_id": 1,
       "subject": "Subject",
       "is_draft": true,
-      "text": "івиваи",
+      "text": "Duis molestie sollicitudin quam, et dictum sem ullamcorper ac. Maecenas commodo vestibulum congue. Nullam non tincidunt metus. In est enim, finibus eget arcu posuere, accumsan lacinia nibh. Morbi sed pharetra libero, vel volutpat mi. In sit amet interdum augue. Proin vestibulum arcu vitae ultrices varius. Maecenas velit est, vestibulum in feugiat a, tincidunt vel mi. Quisque semper faucibus nunc id blandit. In interdum quis mauris et placerat.",
       "created_at": "2017-11-14 22:53:12",
       "updated_at": "2017-11-14 22:53:12",
       "sender": {
@@ -808,7 +808,7 @@
           "selected": true
         }
       ],
-      "text": "dfhdfjfddfj",
+      "text": "Duis molestie sollicitudin quam, et dictum sem ullamcorper ac. Maecenas commodo vestibulum congue. Nullam non tincidunt metus. In est enim, finibus eget arcu posuere, accumsan lacinia nibh. Morbi sed pharetra libero, vel volutpat mi. In sit amet interdum augue. Proin vestibulum arcu vitae ultrices varius. Maecenas velit est, vestibulum in feugiat a, tincidunt vel mi. Quisque semper faucibus nunc id blandit. In interdum quis mauris et placerat.",
       "subject": "fdfdjdfj",
       "id": 9
     },
@@ -824,14 +824,14 @@
           "selected": true
         }
       ],
-      "text": "dfhfd",
+      "text": "Duis molestie sollicitudin quam, et dictum sem ullamcorper ac. Maecenas commodo vestibulum congue. Nullam non tincidunt metus. In est enim, finibus eget arcu posuere, accumsan lacinia nibh. Morbi sed pharetra libero, vel volutpat mi. In sit amet interdum augue. Proin vestibulum arcu vitae ultrices varius. Maecenas velit est, vestibulum in feugiat a, tincidunt vel mi. Quisque semper faucibus nunc id blandit. In interdum quis mauris et placerat.",
       "subject": "fdjfdj",
       "id": 10
     }
   ],
   "message_create_reply": [
     {
-      "text": "bcvngmgf",
+      "text": "Duis molestie sollicitudin quam, et dictum sem ullamcorper ac. Maecenas commodo vestibulum congue. Nullam non tincidunt metus. In est enim, finibus eget arcu posuere, accumsan lacinia nibh. Morbi sed pharetra libero, vel volutpat mi. In sit amet interdum augue. Proin vestibulum arcu vitae ultrices varius. Maecenas velit est, vestibulum in feugiat a, tincidunt vel mi. Quisque semper faucibus nunc id blandit. In interdum quis mauris et placerat.",
       "subject": "Subject",
       "receiver": {
         "id": 1,
@@ -844,7 +844,7 @@
       "id": 1
     },
     {
-      "text": "trjtrjrtj",
+      "text": "Duis molestie sollicitudin quam, et dictum sem ullamcorper ac. Maecenas commodo vestibulum congue. Nullam non tincidunt metus. In est enim, finibus eget arcu posuere, accumsan lacinia nibh. Morbi sed pharetra libero, vel volutpat mi. In sit amet interdum augue. Proin vestibulum arcu vitae ultrices varius. Maecenas velit est, vestibulum in feugiat a, tincidunt vel mi. Quisque semper faucibus nunc id blandit. In interdum quis mauris et placerat.",
       "subject": "Subject",
       "receiver": {
         "id": 1,

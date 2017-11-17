@@ -1,19 +1,19 @@
 <div class="row m-t-20 bordered">
     <div class="col-md-24">
-        Sender: {{ $ctrl.message.sender.email }}
+        <b>Sender: </b>{{ $ctrl.message.sender.email }}
     </div>
     <div class="col-md-24" style="display: inline-block;">
-        Receivers: &nbsp;
+        <b>Receivers: </b>&nbsp;
         <span  ng-repeat="item in $ctrl.message.receivers">
             {{ item.email }}<span ng-if="!$last">, </span>
         </span>
 
     </div>
     <div class="col-md-24">
-        {{ $ctrl.message.subject }}
+        <b>Subject:</b> {{ $ctrl.message.subject }}
     </div>
     <div class="col-md-24">
-        {{ $ctrl.message.text }}
+        <b>Text:</b> {{ $ctrl.message.text }}
     </div>
     <div class="col-md-24" ng-repeat="file in $ctrl.message.files">
         <a href="/api/file/download/{{ file.token }}" target="_blank">Download {{ file.name }}</a>
