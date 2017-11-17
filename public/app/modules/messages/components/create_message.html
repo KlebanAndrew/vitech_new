@@ -1,0 +1,66 @@
+<div class="row">
+    <div class="col-md-3">
+        <label>To:</label>
+    </div>
+    <div class="col-md-20">
+        <div
+            isteven-multi-select
+            input-model="$ctrl.contacts"
+            output-model="$ctrl.message.receivers"
+            button-label="name"
+            item-label="name"
+            tick-property="selected"
+            helper-elements="filters"
+            max-height="250px"
+        >
+        </div>
+    </div>
+    <ul ng-if="$ctrl.errors.receivers" class="form-errors">
+        <li ng-repeat="error in $ctrl.errors.receivers">
+            <label class="error" ng-bind="::error"></label>
+        </li>
+    </ul><!-- errors -->
+</div>
+<div class="row m-t-5">
+    <div class="col-md-3">
+        <label for="message_subject">Subject</label>
+    </div>
+    <div class="col-md-20">
+        <input
+            id="message_subject"
+            type="text"
+            ng-model="$ctrl.message.subject"
+            maxlength="255"
+        >
+        <ul ng-if="$ctrl.errors.subject" class="form-errors">
+            <li ng-repeat="error in $ctrl.errors.subject">
+                <label class="error" ng-bind="::error"></label>
+            </li>
+        </ul><!-- errors -->
+    </div>
+</div>
+<div class="row m-t-5">
+    <div class="col-md-24">
+        <div class="form-group form-textarea">
+            <div id="summernote">
+                <summernote
+                    ng-model="$ctrl.message.text"
+                    config="$ctrl.options">
+                </summernote>
+            </div>
+        </div><!-- form-group form-textarea -->
+        <ul ng-if="$ctrl.errors.text" class="form-errors">
+            <li ng-repeat="error in $ctrl.errors.text">
+                <label class="error" ng-bind="::error"></label>
+            </li>
+        </ul><!-- errors -->
+    </div>
+</div>
+<upload-file
+    files="$ctrl.message.files"
+></upload-file>
+<div class="row m-t-5 u-textRight">
+    <div class="col-md-2 col-md-offset-22">
+        <button ng-click="$ctrl.sendMessage()" class="btn btn-success">Send</button>
+    </div>
+</div>

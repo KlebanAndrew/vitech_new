@@ -1,0 +1,15 @@
+<div class="m-attachment m-t-20 u-flex u-justify-center" ng-class="{'col-xs-24': $ctrl.files.length != 0, 'col-xs-12 col-sm-9': $ctrl.files.length == 0}">
+    <div class="m-attachment__upload" ng-click="">
+        <input style="display: none" name="file" id="file" type="file" uploader="$ctrl.uploader" nv-file-select/>
+        <label ng-show="$ctrl.files.length == 0" for="file" class="cursor">
+            <i class="glyphicon-file"></i>
+            <span >Upload file</span>
+        </label>
+    </div>
+    <div class="m-attachment__preview" ng-repeat="file in $ctrl.files">
+        <div>{{ file.name }}</div>
+        <div class="fo-delete">
+            <a class="icon-cancel" ng-click="$ctrl.removeFile($index)">Delete</a>
+        </div>
+    </div>
+</div>

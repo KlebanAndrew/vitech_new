@@ -1,0 +1,14 @@
+{
+  "/create": "/",
+  "/draft/:id": "/",
+  "/api/*": "/$1",
+  "/file/upload": "/files",
+  "/file/delete/:id": "/files/:id",
+  "/messages": "/message_sent",
+  "/messages/send": "/message_sent",
+  "/messages/inbox": "/message_inbox",
+  "/messages/:id/edit": "/message_draft/:id",
+  "/messages/draft": "/message_draft",
+  "/messages/reply": "/message_sent",
+  "/messages/:id": "/message_draft/:id"
+}

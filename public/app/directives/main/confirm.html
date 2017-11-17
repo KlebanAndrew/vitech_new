@@ -1,0 +1,10 @@
+<div class="m-custom-confirm">
+	<div class="confirm-title-wrapper">
+		<div ng-if="!ngDialogData.title" class="ngDialogData-title">Are you sure you want to do this?</div>
+		<div class="ngDialogData-title"  ng-if="ngDialogData.title" ng-bind="ngDialogData.title"></div>
+	</div>
+	<div class="confirm-btn-wrapper">
+		<button class="btn btn-cons white" ng-click="closeThisDialog()">Cancel</button>
+		<button class="btn btn-cons blue" ng-click="confirm()">Confirm</button>
+	</div>
+</div>

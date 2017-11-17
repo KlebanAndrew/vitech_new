@@ -1,0 +1,58 @@
+<div class="m-b-20 m-pagination u-textCenter" ng-if="$ctrl.paginateTotalPages >=2">
+    <a
+        ng-if="$ctrl.paginatePrevPageUrl" href="#" class="fa fa-angle-double-left m-pagination__button"
+        ng-click="$ctrl.getPaginate($ctrl.paginateCurrentPage -1)"
+    ></a>
+
+    <label
+        class="fa fa-angle-double-left m-pagination__arrow m-pagination__button"
+        ng-if="!$ctrl.paginatePrevPageUrl"
+    ></label>
+
+    <a
+        class="m-pagination__button"
+        href="#"
+        ng-if=" $ctrl.paginateCurrentPage != 1"
+        ng-click="$ctrl.getPaginate(1)"
+    >1</a>
+
+    <label class="active m-pagination__button" ng-if="$ctrl.paginateCurrentPage == 1">1</label>
+    <label ng-if="(($ctrl.paginateRange + 2) < $ctrl.paginateCurrentPage*1)">...</label>
+
+    <span ng-if="$ctrl.range.length >= 1" class="hidden-xs">
+        <div style="display: inline-block;" ng-repeat="val in $ctrl.range">
+            <div ng-if="val >= ($ctrl.paginateCurrentPage*1 -$ctrl.paginateRange) && val <= ($ctrl.paginateCurrentPage*1 +$ctrl.paginateRange)">
+                <a
+                    class="m-pagination__button" ng-if="val != $ctrl.paginateCurrentPage" href="#"
+                    ng-click="$ctrl.getPaginate(val)"
+                >{{ val }}</a>
+                <label
+                    class="active m-pagination__button"
+                    ng-if="val == $ctrl.paginateCurrentPage && $ctrl.paginateCurrentPage != $ctrl.paginateTotalPages"
+                >{{ val }}</label>
+            </div>
+        </div>
+    </span>
+
+    <label ng-if=" $ctrl.paginateRange + 2 <= $ctrl.paginateTotalPages*1 - $ctrl.paginateCurrentPage*1">...</label>
+    <a
+        class="m-pagination__button"
+        ng-if=" $ctrl.paginateCurrentPage != $ctrl.paginateTotalPages"
+        href="#"
+        ng-click="$ctrl.getPaginate($ctrl.paginateTotalPages)"
+    >{{ $ctrl.paginateTotalPages }}</a>
+
+    <label
+        class="active m-pagination__button"
+        ng-if="$ctrl.paginateCurrentPage == $ctrl.paginateTotalPages"
+    >{{ $ctrl.paginateTotalPages }}</label>
+
+    <a
+        ng-if="$ctrl.paginateNextPageUrl" class="fa fa-angle-double-right m-pagination__button" href="#"
+        ng-click="$ctrl.getPaginate($ctrl.paginateCurrentPage +1)"
+    ></a>
+    <label
+        ng-if="!$ctrl.paginateNextPageUrl"
+        class="fa fa-angle-double-right m-pagination__arrow  m-pagination__button"
+    ></label>
+</div>

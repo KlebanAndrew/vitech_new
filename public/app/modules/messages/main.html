@@ -1,0 +1,44 @@
+<div class="row m-t-20">
+    <div class="col-md-8">
+        <div class="p-t-5">
+            <button ng-click="ctrl.showList('inbox')" class="btn btn-complete"><!--make filter-->
+                Inbox
+            </button>
+            <button ng-click="ctrl.showList('send')" class="btn btn-complete"><!--make filter-->
+                Sent
+            </button>
+            <button ng-click="ctrl.showList('draft')" class="btn btn-complete"><!--make filter-->
+                Draft
+            </button>
+        </div>
+    </div>
+    <div class="col-md-16 u-m-t-5 u-textRight">
+        <div class="col-md-offset-18 col-md-5">
+            <a ui-sref="messages.create" class="btn btn-complete"><!--make filter-->
+                Compose
+            </a>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-8">
+        <div class="row">
+            <!--show message list component-->
+            <div class="col-xs-24 m-b-20"><!--ng-repeat messages-->
+                <messages-list
+                    options="ctrl.messageListOptions"
+                    selected-message="ctrl.openMessage"
+                    type="ctrl.messageListOptions.type"
+                ></messages-list>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-15 bordered m-l-20">
+            <view-message
+                ng-show="ctrl.openMessage"
+                message="ctrl.openMessage"
+            >
+            </view-message>
+    </div>
+</div>
+

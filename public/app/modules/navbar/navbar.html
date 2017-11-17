@@ -1,0 +1,25 @@
+<nav class="page-sidebar" data-pages="sidebar">
+
+    <div class="sidebar-header">
+        <img src="/images/dashboard/logo.png" alt="logo" title="logo" class="m-r-30"/>
+        <div class="sidebar-header-controls">
+            <button type="button" class="btn btn-link visible-md-inline visible-lg-inline" data-toggle-pin="sidebar">
+                <i class="fa fs-12"></i>
+            </button>
+        </div><!-- sidebar-header-controls -->
+    </div><!-- sidebar-header -->
+
+    <perfect-scrollbar class="sidebar-menu scrollbar m-t-30" wheel-propagation="false" wheel-speed="10">
+        <ul class="menu-items">
+            <li
+                role="presentation" class=""
+                ng-class="{ active: state.includes('settings.*') || state.current.name == 'settings' }"
+            >
+                <a ui-sref="settings.list">
+                    <span class="title">Settings</span>
+                </a>
+                <span class="icon-thumbnail">SE</span>
+            </li><!-- presentation settings -->
+        </ul><!-- menu-items -->
+    </perfect-scrollbar><!-- sidebar-menu scrollbar m-t-30 -->
+</nav><!-- page-sidebar -->

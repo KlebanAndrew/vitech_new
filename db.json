@@ -1,0 +1,860 @@
+{
+  "message_sent": [
+    {
+      "id": 1,
+      "sender_id": 1,
+      "subject": "Test",
+      "is_draft": false,
+      "text": "test",
+      "created_at": "2017-11-14 17:00:04",
+      "updated_at": "2017-11-14 17:00:04",
+      "sender": {
+        "id": 1,
+        "name": "Andrew",
+        "email": "klebanandrew@gmail.com",
+        "created_at": "2017-11-14 11:48:34",
+        "updated_at": "2017-11-14 11:48:34"
+      },
+      "files": [],
+      "receivers": []
+    },
+    {
+      "id": 2,
+      "sender_id": 1,
+      "subject": "Subject",
+      "is_draft": false,
+      "text": "Text",
+      "created_at": "2017-11-14 17:03:32",
+      "updated_at": "2017-11-14 17:03:32",
+      "sender": {
+        "id": 1,
+        "name": "Andrew",
+        "email": "klebanandrew@gmail.com",
+        "created_at": "2017-11-14 11:48:34",
+        "updated_at": "2017-11-14 11:48:34"
+      },
+      "files": [],
+      "receivers": []
+    },
+    {
+      "id": 3,
+      "sender_id": 1,
+      "subject": "Subject",
+      "is_draft": false,
+      "text": "Text",
+      "created_at": "2017-11-14 17:03:58",
+      "updated_at": "2017-11-14 17:03:58",
+      "sender": {
+        "id": 1,
+        "name": "Andrew",
+        "email": "klebanandrew@gmail.com",
+        "created_at": "2017-11-14 11:48:34",
+        "updated_at": "2017-11-14 11:48:34"
+      },
+      "files": [],
+      "receivers": []
+    },
+    {
+      "id": 4,
+      "sender_id": 1,
+      "subject": "Subject",
+      "is_draft": false,
+      "text": "Text",
+      "created_at": "2017-11-14 17:04:59",
+      "updated_at": "2017-11-14 17:04:59",
+      "sender": {
+        "id": 1,
+        "name": "Andrew",
+        "email": "klebanandrew@gmail.com",
+        "created_at": "2017-11-14 11:48:34",
+        "updated_at": "2017-11-14 11:48:34"
+      },
+      "files": [],
+      "receivers": [
+        {
+          "id": 2,
+          "name": "Test",
+          "email": "test@test.com",
+          "created_at": null,
+          "updated_at": null,
+          "pivot": {
+            "message_id": 4,
+            "user_id": 2
+          }
+        },
+        {
+          "id": 4,
+          "name": "Test2",
+          "email": "test2@test.com",
+          "created_at": null,
+          "updated_at": null,
+          "pivot": {
+            "message_id": 4,
+            "user_id": 4
+          }
+        },
+        {
+          "id": 5,
+          "name": "Test3",
+          "email": "test3@test.com",
+          "created_at": null,
+          "updated_at": null,
+          "pivot": {
+            "message_id": 4,
+            "user_id": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "sender_id": 1,
+      "subject": "asf",
+      "is_draft": false,
+      "text": "asfsaf",
+      "created_at": "2017-11-14 17:05:49",
+      "updated_at": "2017-11-14 17:05:49",
+      "sender": {
+        "id": 1,
+        "name": "Andrew",
+        "email": "klebanandrew@gmail.com",
+        "created_at": "2017-11-14 11:48:34",
+        "updated_at": "2017-11-14 11:48:34"
+      },
+      "files": [],
+      "receivers": [
+        {
+          "id": 3,
+          "name": "Test1",
+          "email": "test1@test.com",
+          "created_at": null,
+          "updated_at": null,
+          "pivot": {
+            "message_id": 5,
+            "user_id": 3
+          }
+        },
+        {
+          "id": 4,
+          "name": "Test2",
+          "email": "test2@test.com",
+          "created_at": null,
+          "updated_at": null,
+          "pivot": {
+            "message_id": 5,
+            "user_id": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "sender_id": 1,
+      "subject": "Test 2",
+      "is_draft": false,
+      "text": "Test 2",
+      "created_at": "2017-11-14 17:10:17",
+      "updated_at": "2017-11-14 17:10:17",
+      "sender": {
+        "id": 1,
+        "name": "Andrew",
+        "email": "klebanandrew@gmail.com",
+        "created_at": "2017-11-14 11:48:34",
+        "updated_at": "2017-11-14 11:48:34"
+      },
+      "files": [],
+      "receivers": [
+        {
+          "id": 1,
+          "name": "Andrew",
+          "email": "klebanandrew@gmail.com",
+          "created_at": "2017-11-14 11:48:34",
+          "updated_at": "2017-11-14 11:48:34",
+          "pivot": {
+            "message_id": 6,
+            "user_id": 1
+          }
+        },
+        {
+          "id": 5,
+          "name": "Test3",
+          "email": "test3@test.com",
+          "created_at": null,
+          "updated_at": null,
+          "pivot": {
+            "message_id": 6,
+            "user_id": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "sender_id": 1,
+      "subject": "Subject",
+      "is_draft": false,
+      "text": "ар",
+      "created_at": "2017-11-14 22:51:43",
+      "updated_at": "2017-11-14 22:51:43",
+      "sender": {
+        "id": 1,
+        "name": "Andrew",
+        "email": "klebanandrew@gmail.com",
+        "created_at": "2017-11-14 11:48:34",
+        "updated_at": "2017-11-14 11:48:34"
+      },
+      "files": [],
+      "receivers": []
+    },
+    {
+      "id": 9,
+      "sender_id": 1,
+      "subject": "Subject",
+      "is_draft": false,
+      "text": "івиваи",
+      "created_at": "2017-11-14 22:53:27",
+      "updated_at": "2017-11-14 22:53:27",
+      "sender": {
+        "id": 1,
+        "name": "Andrew",
+        "email": "klebanandrew@gmail.com",
+        "created_at": "2017-11-14 11:48:34",
+        "updated_at": "2017-11-14 11:48:34"
+      },
+      "files": [],
+      "receivers": []
+    },
+    {
+      "id": 11,
+      "sender_id": 1,
+      "subject": "Subject",
+      "is_draft": false,
+      "text": "sgsg",
+      "created_at": "2017-11-15 00:17:25",
+      "updated_at": "2017-11-15 00:17:25",
+      "sender": {
+        "id": 1,
+        "name": "Andrew",
+        "email": "klebanandrew@gmail.com",
+        "created_at": "2017-11-14 11:48:34",
+        "updated_at": "2017-11-14 11:48:34"
+      },
+      "files": [],
+      "receivers": [
+        {
+          "id": 1,
+          "name": "Andrew",
+          "email": "klebanandrew@gmail.com",
+          "created_at": "2017-11-14 11:48:34",
+          "updated_at": "2017-11-14 11:48:34",
+          "pivot": {
+            "message_id": 11,
+            "user_id": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "sender_id": 1,
+      "subject": "Subject",
+      "is_draft": false,
+      "text": "sdgsg",
+      "created_at": "2017-11-15 00:18:44",
+      "updated_at": "2017-11-15 00:18:44",
+      "sender": {
+        "id": 1,
+        "name": "Andrew",
+        "email": "klebanandrew@gmail.com",
+        "created_at": "2017-11-14 11:48:34",
+        "updated_at": "2017-11-14 11:48:34"
+      },
+      "files": [],
+      "receivers": [
+        {
+          "id": 1,
+          "name": "Andrew",
+          "email": "klebanandrew@gmail.com",
+          "created_at": "2017-11-14 11:48:34",
+          "updated_at": "2017-11-14 11:48:34",
+          "pivot": {
+            "message_id": 12,
+            "user_id": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "sender_id": 1,
+      "subject": "Subject",
+      "is_draft": false,
+      "text": "asfasf",
+      "created_at": "2017-11-15 00:20:00",
+      "updated_at": "2017-11-15 00:20:00",
+      "sender": {
+        "id": 1,
+        "name": "Andrew",
+        "email": "klebanandrew@gmail.com",
+        "created_at": "2017-11-14 11:48:34",
+        "updated_at": "2017-11-14 11:48:34"
+      },
+      "files": [],
+      "receivers": [
+        {
+          "id": 1,
+          "name": "Andrew",
+          "email": "klebanandrew@gmail.com",
+          "created_at": "2017-11-14 11:48:34",
+          "updated_at": "2017-11-14 11:48:34",
+          "pivot": {
+            "message_id": 13,
+            "user_id": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "sender_id": 1,
+      "subject": "sdgsdg",
+      "is_draft": false,
+      "text": "asgdsg",
+      "created_at": "2017-11-15 00:33:12",
+      "updated_at": "2017-11-15 00:33:12",
+      "sender": {
+        "id": 1,
+        "name": "Andrew",
+        "email": "klebanandrew@gmail.com",
+        "created_at": "2017-11-14 11:48:34",
+        "updated_at": "2017-11-14 11:48:34"
+      },
+      "files": [],
+      "receivers": [
+        {
+          "id": 3,
+          "name": "Test1",
+          "email": "test1@test.com",
+          "created_at": null,
+          "updated_at": null,
+          "pivot": {
+            "message_id": 14,
+            "user_id": 3
+          }
+        },
+        {
+          "id": 4,
+          "name": "Test2",
+          "email": "test2@test.com",
+          "created_at": null,
+          "updated_at": null,
+          "pivot": {
+            "message_id": 14,
+            "user_id": 4
+          }
+        },
+        {
+          "id": 6,
+          "name": "Test4",
+          "email": "test4@test.com",
+          "created_at": null,
+          "updated_at": null,
+          "pivot": {
+            "message_id": 14,
+            "user_id": 6
+          }
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "sender_id": 1,
+      "subject": "fgmfgmf",
+      "is_draft": false,
+      "text": "fnfgmgfm",
+      "created_at": "2017-11-15 00:34:07",
+      "updated_at": "2017-11-15 00:34:07",
+      "sender": {
+        "id": 1,
+        "name": "Andrew",
+        "email": "klebanandrew@gmail.com",
+        "created_at": "2017-11-14 11:48:34",
+        "updated_at": "2017-11-14 11:48:34"
+      },
+      "files": [],
+      "receivers": [
+        {
+          "id": 3,
+          "name": "Test1",
+          "email": "test1@test.com",
+          "created_at": null,
+          "updated_at": null,
+          "pivot": {
+            "message_id": 15,
+            "user_id": 3
+          }
+        },
+        {
+          "id": 5,
+          "name": "Test3",
+          "email": "test3@test.com",
+          "created_at": null,
+          "updated_at": null,
+          "pivot": {
+            "message_id": 15,
+            "user_id": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "sender_id": 1,
+      "subject": "sdgsdg",
+      "is_draft": false,
+      "text": "sdhsdh",
+      "created_at": "2017-11-15 00:35:35",
+      "updated_at": "2017-11-15 00:35:35",
+      "sender": {
+        "id": 1,
+        "name": "Andrew",
+        "email": "klebanandrew@gmail.com",
+        "created_at": "2017-11-14 11:48:34",
+        "updated_at": "2017-11-14 11:48:34"
+      },
+      "files": [],
+      "receivers": [
+        {
+          "id": 4,
+          "name": "Test2",
+          "email": "test2@test.com",
+          "created_at": null,
+          "updated_at": null,
+          "pivot": {
+            "message_id": 16,
+            "user_id": 4
+          }
+        }
+      ]
+    },
+    {
+      "text": "gsgdhd",
+      "subject": "Subject",
+      "receiver": {
+        "id": 1,
+        "name": "Andrew",
+        "email": "klebanandrew@gmail.com",
+        "created_at": "2017-11-14 11:48:34",
+        "updated_at": "2017-11-14 11:48:34"
+      },
+      "files": [],
+      "id": 17
+    },
+    {
+      "files": [],
+      "receivers": [
+        {
+          "id": 4,
+          "name": "Test2",
+          "email": "test2@test.com",
+          "created_at": null,
+          "updated_at": null,
+          "selected": true
+        }
+      ],
+      "text": "fdjfdj",
+      "subject": "dfjfdj",
+      "id": 18
+    }
+  ],
+  "message_inbox": [
+    {
+      "id": 6,
+      "sender_id": 1,
+      "subject": "Test 2",
+      "is_draft": false,
+      "text": "Test 2",
+      "created_at": "2017-11-14 17:10:17",
+      "updated_at": "2017-11-14 17:10:17",
+      "sender": {
+        "id": 1,
+        "name": "Andrew",
+        "email": "klebanandrew@gmail.com",
+        "created_at": "2017-11-14 11:48:34",
+        "updated_at": "2017-11-14 11:48:34"
+      },
+      "files": [],
+      "pivot": {
+        "user_id": 1,
+        "message_id": 6
+      }
+    },
+    {
+      "id": 10,
+      "sender_id": 1,
+      "subject": "Subject",
+      "is_draft": false,
+      "text": "івиваи",
+      "created_at": "2017-11-14 22:53:55",
+      "updated_at": "2017-11-14 22:53:55",
+      "sender": {
+        "id": 1,
+        "name": "Andrew",
+        "email": "klebanandrew@gmail.com",
+        "created_at": "2017-11-14 11:48:34",
+        "updated_at": "2017-11-14 11:48:34"
+      },
+      "files": [],
+      "pivot": {
+        "user_id": 1,
+        "message_id": 10
+      }
+    },
+    {
+      "id": 11,
+      "sender_id": 1,
+      "subject": "Subject",
+      "is_draft": false,
+      "text": "sgsg",
+      "created_at": "2017-11-15 00:17:25",
+      "updated_at": "2017-11-15 00:17:25",
+      "sender": {
+        "id": 1,
+        "name": "Andrew",
+        "email": "klebanandrew@gmail.com",
+        "created_at": "2017-11-14 11:48:34",
+        "updated_at": "2017-11-14 11:48:34"
+      },
+      "files": [],
+      "pivot": {
+        "user_id": 1,
+        "message_id": 11
+      }
+    },
+    {
+      "id": 12,
+      "sender_id": 1,
+      "subject": "Subject",
+      "is_draft": false,
+      "text": "sdgsg",
+      "created_at": "2017-11-15 00:18:44",
+      "updated_at": "2017-11-15 00:18:44",
+      "sender": {
+        "id": 1,
+        "name": "Andrew",
+        "email": "klebanandrew@gmail.com",
+        "created_at": "2017-11-14 11:48:34",
+        "updated_at": "2017-11-14 11:48:34"
+      },
+      "files": [],
+      "pivot": {
+        "user_id": 1,
+        "message_id": 12
+      }
+    },
+    {
+      "id": 13,
+      "sender_id": 1,
+      "subject": "Subject",
+      "is_draft": false,
+      "text": "asfasf",
+      "created_at": "2017-11-15 00:20:00",
+      "updated_at": "2017-11-15 00:20:00",
+      "sender": {
+        "id": 1,
+        "name": "Andrew",
+        "email": "klebanandrew@gmail.com",
+        "created_at": "2017-11-14 11:48:34",
+        "updated_at": "2017-11-14 11:48:34"
+      },
+      "files": [],
+      "pivot": {
+        "user_id": 1,
+        "message_id": 13
+      }
+    },
+    {
+      "files": [],
+      "receivers": [],
+      "text": "asgsag",
+      "subject": "sagsag",
+      "id": 14
+    }
+  ],
+  "message_draft": [
+    {
+      "id": 8,
+      "sender_id": 1,
+      "subject": "Subject",
+      "is_draft": true,
+      "text": "івиваиfhd",
+      "created_at": "2017-11-14 22:53:12",
+      "updated_at": "2017-11-14 22:53:12",
+      "sender": {
+        "id": 1,
+        "name": "Andrew",
+        "email": "klebanandrew@gmail.com",
+        "created_at": "2017-11-14 11:48:34",
+        "updated_at": "2017-11-14 11:48:34"
+      },
+      "files": [],
+      "receivers": []
+    },
+    {
+      "id": 10,
+      "sender_id": 1,
+      "subject": "Subject",
+      "is_draft": true,
+      "text": "івиваиhdf",
+      "created_at": "2017-11-14 22:53:55",
+      "updated_at": "2017-11-14 22:53:55",
+      "sender": {
+        "id": 1,
+        "name": "Andrew",
+        "email": "klebanandrew@gmail.com",
+        "created_at": "2017-11-14 11:48:34",
+        "updated_at": "2017-11-14 11:48:34"
+      },
+      "files": [],
+      "receivers": []
+    },
+    {
+      "text": "fdfdjfdmdf",
+      "subject": "Subject",
+      "receiver": {
+        "id": 1,
+        "name": "Andrew",
+        "email": "klebanandrew@gmail.com",
+        "created_at": "2017-11-14 11:48:34",
+        "updated_at": "2017-11-14 11:48:34"
+      },
+      "files": [],
+      "id": 11
+    },
+    {
+      "text": "fbnfdnfdm",
+      "subject": "Subject",
+      "receiver": {
+        "id": 1,
+        "name": "Andrew",
+        "email": "klebanandrew@gmail.com",
+        "created_at": "2017-11-14 11:48:34",
+        "updated_at": "2017-11-14 11:48:34"
+      },
+      "id": 12
+    },
+    {
+      "files": [],
+      "receivers": [
+        {
+          "id": 2,
+          "name": "Test",
+          "email": "test@test.com",
+          "created_at": null,
+          "updated_at": null,
+          "selected": true
+        },
+        {
+          "id": 4,
+          "name": "Test2",
+          "email": "test2@test.com",
+          "created_at": null,
+          "updated_at": null,
+          "selected": true
+        }
+      ],
+      "subject": "jdfj",
+      "text": "fdjfdjfd",
+      "id": 13
+    },
+    {
+      "text": "fnfdn",
+      "subject": "Subject",
+      "receiver": {
+        "id": 1,
+        "name": "Andrew",
+        "email": "klebanandrew@gmail.com",
+        "created_at": "2017-11-14 11:48:34",
+        "updated_at": "2017-11-14 11:48:34"
+      },
+      "files": [],
+      "id": 14
+    }
+  ],
+  "contacts": [
+    {
+      "id": 2,
+      "name": "Test",
+      "email": "test@test.com",
+      "created_at": null,
+      "updated_at": null
+    },
+    {
+      "id": 3,
+      "name": "Test1",
+      "email": "test1@test.com",
+      "created_at": null,
+      "updated_at": null
+    },
+    {
+      "id": 4,
+      "name": "Test2",
+      "email": "test2@test.com",
+      "created_at": null,
+      "updated_at": null
+    },
+    {
+      "id": 5,
+      "name": "Test3",
+      "email": "test3@test.com",
+      "created_at": null,
+      "updated_at": null
+    },
+    {
+      "id": 6,
+      "name": "Test4",
+      "email": "test4@test.com",
+      "created_at": null,
+      "updated_at": null
+    }
+  ],
+  "files": [
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 6
+    },
+    {
+      "id": 7
+    },
+    {
+      "id": 8
+    }
+  ],
+  "message_create": [
+    {
+      "id": 8,
+      "sender_id": 1,
+      "subject": "Subject",
+      "is_draft": true,
+      "text": "івиваи",
+      "created_at": "2017-11-14 22:53:12",
+      "updated_at": "2017-11-14 22:53:12",
+      "sender": {
+        "id": 1,
+        "name": "Andrew",
+        "email": "klebanandrew@gmail.com",
+        "created_at": "2017-11-14 11:48:34",
+        "updated_at": "2017-11-14 11:48:34"
+      },
+      "files": [],
+      "receivers": [
+        {
+          "id": 3,
+          "name": "Test1",
+          "email": "test1@test.com",
+          "created_at": null,
+          "updated_at": null,
+          "selected": true
+        },
+        {
+          "id": 5,
+          "name": "Test3",
+          "email": "test3@test.com",
+          "created_at": null,
+          "updated_at": null,
+          "selected": true
+        }
+      ]
+    },
+    {
+      "files": [],
+      "receivers": [
+        {
+          "id": 2,
+          "name": "Test",
+          "email": "test@test.com",
+          "created_at": null,
+          "updated_at": null,
+          "selected": true
+        },
+        {
+          "id": 4,
+          "name": "Test2",
+          "email": "test2@test.com",
+          "created_at": null,
+          "updated_at": null,
+          "selected": true
+        },
+        {
+          "id": 6,
+          "name": "Test4",
+          "email": "test4@test.com",
+          "created_at": null,
+          "updated_at": null,
+          "selected": true
+        }
+      ],
+      "text": "dfhdfjfddfj",
+      "subject": "fdfdjdfj",
+      "id": 9
+    },
+    {
+      "files": [],
+      "receivers": [
+        {
+          "id": 4,
+          "name": "Test2",
+          "email": "test2@test.com",
+          "created_at": null,
+          "updated_at": null,
+          "selected": true
+        }
+      ],
+      "text": "dfhfd",
+      "subject": "fdjfdj",
+      "id": 10
+    }
+  ],
+  "message_create_reply": [
+    {
+      "text": "bcvngmgf",
+      "subject": "Subject",
+      "receiver": {
+        "id": 1,
+        "name": "Andrew",
+        "email": "klebanandrew@gmail.com",
+        "created_at": "2017-11-14 11:48:34",
+        "updated_at": "2017-11-14 11:48:34"
+      },
+      "files": [],
+      "id": 1
+    },
+    {
+      "text": "trjtrjrtj",
+      "subject": "Subject",
+      "receiver": {
+        "id": 1,
+        "name": "Andrew",
+        "email": "klebanandrew@gmail.com",
+        "created_at": "2017-11-14 11:48:34",
+        "updated_at": "2017-11-14 11:48:34"
+      },
+      "files": [],
+      "id": 2
+    }
+  ]
+}
